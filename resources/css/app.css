@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom theme settings */
+@layer base {
+    :root {
+        --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    
+    html {
+        font-family: var(--font-sans);
+    }
+    
+    html.dark {
+        color-scheme: dark;
+    }
+    
+    body {
+        @apply bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+    }
+    
+    a {
+        @apply text-primary-dark hover:text-primary transition-colors duration-300;
+    }
+    
+    /* Page transition effects */
+    main {
+        @apply transition-opacity duration-300 ease-in-out;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-lg font-medium transition-all duration-300;
+    }
+    
+    .btn-primary {
+        @apply bg-primary-dark hover:bg-primary text-white;
+    }
+    
+    .section {
+        @apply py-12;
+    }
+    
+    .container {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+    
+    .page-transition {
+        @apply transition-all duration-300 ease-in-out;
+    }
+}
+
+/* Custom utilities */
+@layer utilities {
+    .page-enter {
+        @apply opacity-0;
+    }
+    
+    .page-enter-active {
+        @apply opacity-100 transition-opacity duration-300;
+    }
+    
+    .page-exit {
+        @apply opacity-100;
+    }
+    
+    .page-exit-active {
+        @apply opacity-0 transition-opacity duration-300;
+    }
+}
+
+/* Content sources */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
