@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="w-full md:w-1/2 flex justify-center">
-            <div class="w-80 h-80 rounded-full border-4 border-[#1d4ed8] dark:border-gold overflow-hidden bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+            <div class="w-80 h-80 rounded-full border-4 border-[#1d4ed8] light:border-dotted overflow-hidden bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
                 <img src="images/pic2.jpg" alt="">
 
             </div>
@@ -44,7 +44,7 @@
 
     <!-- Featured Skills -->
     <div class="py-12">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-6">What I Do</h2>
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-6 underline decoration-[#1d4ed8] flex justify-center">What I Do</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="p-6 rounded-lg shadow-md bg-white dark:bg-gray-800 hover:shadow-lg transition duration-300">
                 <div class="text-[#1d4ed8] dark:text-blue-400 mb-4">
@@ -79,13 +79,13 @@
     <!-- Featured Projects -->
     <div class="py-12">
         <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white">Featured Projects</h2>
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white ">Featured <span class="text-[#1d4ed8]"> Projects</span> </h2>
             <a href="/projects" class="text-[#1d4ed8] dark:text-blue-400 hover:underline font-medium">View All</a>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="overflow-hidden rounded-lg shadow-md bg-white dark:bg-gray-800 transition duration-300 hover:shadow-lg">
-                <div class="h-48 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                    <span class="text-gray-400 text-sm">Project Image</span>
+                <div class=" bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+                    <img class="" src="images/mb6.png" alt="">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">BMI Calculator</h3>
@@ -98,19 +98,20 @@
                     <a href="#" class="text-[#1d4ed8] dark:text-blue-400 hover:underline font-medium">View Details →</a>
                 </div>
             </div>
+           
             <div class="overflow-hidden rounded-lg shadow-md bg-white dark:bg-gray-800 transition duration-300 hover:shadow-lg">
-                <div class="h-40 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                    <img class="w-full  h-full" src="images/githubproject.png " alt="">
+                <div class="p-4 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+                    <img class=" " src="images/2.jpeg " alt="">
                 </div>
                 <div class="p-6">
                     <h3 class="text-sm font-semibold  text-gray-800 dark:text-white">GitHub User Finder </h3>
                     <p class="text-gray-600 dark:text-gray-300 mb-4">This project is a frontend mentor challenge where you can search each user in Github.</p>
                     <div class="flex flex-wrap gap-2 mb-9">
                         <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">React</span>
-                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">Node.js</span>
-                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">MongoDB</span>
+                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">Tailwind Css</span>
+                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">Github Api</span>
                     </div>
-                    <a href="#" class="text-[#1d4ed8] dark:text-blue-400 hover:underline font-medium">View Details →</a>
+                    <a href="https://janko-project.vercel.app/" class="text-[#1d4ed8] dark:text-blue-400 hover:underline font-medium">View Details →</a>
                 </div>
             </div>
         </div>

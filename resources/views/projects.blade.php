@@ -38,7 +38,7 @@
                     <!-- Slide 2 -->
                     <div class="project-slide w-full flex-shrink-0">
                         <div class="relative h-[450px]">
-                            <img src="{{ asset('images/fashiom.jpeg') }}" alt="Featured Project 2" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/fashion.webp') }}" alt="Featured Project 2" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">E-commerce</span>
@@ -86,7 +86,7 @@
                     <!-- Slide 4 -->
                     <div class="project-slide w-full flex-shrink-0">
                         <div class="relative h-[450px]">
-                            <img src="{{ asset('images/learning.png') }}" alt="Featured Project 4" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/lms.png') }}" alt="Featured Project 4" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Web App</span>
@@ -112,7 +112,7 @@
                     <!-- Slide 6 -->
                     <div class="project-slide w-full flex-shrink-0">
                         <div class="relative h-[450px]">
-                            <img src="{{ asset('images/travel app.jpeg') }}" alt="Featured Project 6" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/travel.avif') }}" alt="Featured Project 6" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Mobile App</span>
@@ -162,25 +162,23 @@
                         <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="2"></button>
                         <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="3"></button>
                         <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="4"></button>
-                        <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="5"></button>
-                        <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="6"></button>
-                        <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="7"></button>
-                    </div>
+                        
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Projects Header -->
-    <div class="py-14">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
+    <div class="py-14  "> 
+        <div class="max-w-6xl  px-4 sm:px-6 lg:px-8 flex justify-center flex-col items-center ">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4 ">
                 My <span class="text-[#1d4ed8] dark:text-blue-400">Projects</span>
             </h1>
+      
             <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl">
                 Here's a selection of my recent work. Each project presented unique challenges and opportunities for creative problem-solving.
             </p>
-            
+              </div>
             <!-- Project Filters -->
             <div class="mt-8">
                 <div class="flex flex-wrap gap-2 items-center">
@@ -192,7 +190,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
     
     <!-- Projects Grid -->
     <div class="pb-20">
