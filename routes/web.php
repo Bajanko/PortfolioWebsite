@@ -18,3 +18,5 @@ Route::get('/contact', function(){
     return view('contact');
 });
 
+Route:: view('/contact' , 'contact');
+Route:: post ('/contact', [ContactController:: class, 'store']) -> name('contact.store');

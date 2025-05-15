@@ -3,7 +3,7 @@
     <!-- Skills Header -->
     <div class="py-14">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center">
                 My <span class="text-[#1d4ed8] dark:text-blue-400">Skills</span>
             </h1>
             <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl">
@@ -34,7 +34,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">HTML/CSS</span>
-                                    <span class="text-gray-600 dark:text-gray-400">95%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">70%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-blue-600 h-2 rounded-full" style="width: 95%"></div>
@@ -43,7 +43,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">JavaScript</span>
-                                    <span class="text-gray-600 dark:text-gray-400">90%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">65%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-blue-600 h-2 rounded-full" style="width: 90%"></div>
@@ -52,7 +52,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">React</span>
-                                    <span class="text-gray-600 dark:text-gray-400">85%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">50%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
@@ -61,7 +61,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Vue.js</span>
-                                    <span class="text-gray-600 dark:text-gray-400">80%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">40%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-blue-600 h-2 rounded-full" style="width: 80%"></div>
@@ -70,7 +70,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Tailwind CSS</span>
-                                    <span class="text-gray-600 dark:text-gray-400">90%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">60%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-blue-600 h-2 rounded-full" style="width: 90%"></div>
@@ -96,7 +96,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">PHP/Laravel</span>
-                                    <span class="text-gray-600 dark:text-gray-400">90%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">50%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-green-600 h-2 rounded-full" style="width: 90%"></div>
@@ -105,7 +105,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Node.js</span>
-                                    <span class="text-gray-600 dark:text-gray-400">85%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">30%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-green-600 h-2 rounded-full" style="width: 85%"></div>
@@ -114,7 +114,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Python/Django</span>
-                                    <span class="text-gray-600 dark:text-gray-400">75%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">15%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-green-600 h-2 rounded-full" style="width: 75%"></div>
@@ -123,7 +123,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">RESTful APIs</span>
-                                    <span class="text-gray-600 dark:text-gray-400">90%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">30%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-green-600 h-2 rounded-full" style="width: 90%"></div>
@@ -132,7 +132,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">GraphQL</span>
-                                    <span class="text-gray-600 dark:text-gray-400">70%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">10%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-green-600 h-2 rounded-full" style="width: 70%"></div>
@@ -159,7 +159,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">MySQL</span>
-                                    <span class="text-gray-600 dark:text-gray-400">90%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">60%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-purple-600 h-2 rounded-full" style="width: 90%"></div>
@@ -168,7 +168,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">PostgreSQL</span>
-                                    <span class="text-gray-600 dark:text-gray-400">85%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">25%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-purple-600 h-2 rounded-full" style="width: 85%"></div>
@@ -177,7 +177,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">MongoDB</span>
-                                    <span class="text-gray-600 dark:text-gray-400">80%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">40%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-purple-600 h-2 rounded-full" style="width: 80%"></div>
@@ -186,7 +186,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Redis</span>
-                                    <span class="text-gray-600 dark:text-gray-400">75%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">20%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-purple-600 h-2 rounded-full" style="width: 75%"></div>
@@ -195,7 +195,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Firebase</span>
-                                    <span class="text-gray-600 dark:text-gray-400">85%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">10%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-purple-600 h-2 rounded-full" style="width: 85%"></div>
@@ -221,7 +221,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">React Native</span>
-                                    <span class="text-gray-600 dark:text-gray-400">85%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">25%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-orange-600 h-2 rounded-full" style="width: 85%"></div>
@@ -230,7 +230,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Flutter</span>
-                                    <span class="text-gray-600 dark:text-gray-400">75%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">15%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-orange-600 h-2 rounded-full" style="width: 75%"></div>
@@ -239,7 +239,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Swift</span>
-                                    <span class="text-gray-600 dark:text-gray-400">60%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">10%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-orange-600 h-2 rounded-full" style="width: 60%"></div>
@@ -248,7 +248,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Kotlin</span>
-                                    <span class="text-gray-600 dark:text-gray-400">60%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">12%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-orange-600 h-2 rounded-full" style="width: 60%"></div>
@@ -257,7 +257,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Mobile UI/UX</span>
-                                    <span class="text-gray-600 dark:text-gray-400">80%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">50%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-orange-600 h-2 rounded-full" style="width: 80%"></div>
@@ -321,7 +321,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Git/Version Control</span>
-                                    <span class="text-gray-600 dark:text-gray-400">95%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">55%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-teal-600 h-2 rounded-full" style="width: 95%"></div>
@@ -339,7 +339,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Performance Optimization</span>
-                                    <span class="text-gray-600 dark:text-gray-400">80%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">30%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-teal-600 h-2 rounded-full" style="width: 80%"></div>

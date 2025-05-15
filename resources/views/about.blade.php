@@ -36,7 +36,7 @@
     <!-- Experience Section -->
     <div class="py-12 bg-gray-50 dark:bg-gray-900">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10 text-center">
                 Professional <span class="text-[#1d4ed8] dark:text-blue-400">Experience</span>
             </h2>
             
@@ -93,7 +93,7 @@
     <!-- Education Section -->
     <div class="py-12">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10 text-center">
                 <span class="text-[#1d4ed8] dark:text-blue-400">Education</span> & Certifications
             </h2>
             

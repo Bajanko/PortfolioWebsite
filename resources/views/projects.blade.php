@@ -14,20 +14,20 @@
                     <!-- Slide 1 -->
                     <div class="project-slide w-full flex-shrink-0">
                         <div class="relative h-[450px]">
-                            <img src="{{ asset('images/task.png') }}" alt="Featured Project 1" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/q.png') }}" alt="Featured Project 1" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Web App</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2">Portfolio Management Dashboard</h3>
-                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A comprehensive dashboard for managing investment portfolios with real-time market data and performance analytics.</p>
+                                    <h3 class="text-3xl font-bold text-white mb-2 ">Body Mass Index (BMI) Calculator</h3>
+                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A comprehensive dashboard for calculating the body mass</p>
                                     <div class="flex flex-wrap gap-2 mb-6">
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">React</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">TypeScript</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Chart.js</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">REST APIs</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Html</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Css</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Javascript</span>
+                                       
                                     </div>
                                     <div class="flex space-x-3">
-                                        <a href="#" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        <a href="https://bmi-calculator-nu-jade.vercel.app/" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
                                         <a href="#" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
                                     </div>
                                 </div>
@@ -38,21 +38,21 @@
                     <!-- Slide 2 -->
                     <div class="project-slide w-full flex-shrink-0">
                         <div class="relative h-[450px]">
-                            <img src="{{ asset('images/fashion.webp') }}" alt="Featured Project 2" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/cal3.png') }}" alt="Featured Project 2" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
-                                    <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">E-commerce</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2">Fashion Marketplace</h3>
-                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A multi-vendor fashion marketplace with personalized recommendations and integrated payment solutions.</p>
+                                    <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Web App</span>
+                                    <h3 class="text-3xl font-bold text-white mb-2">Calculator App</h3>
+                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A web app calculator that provides simple and advanced mathematical functions such as addition,subtraction,multiplication etc.</p>
                                     <div class="flex flex-wrap gap-2 mb-6">
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Laravel</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Vue.js</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">MySQL</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Stripe</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Html</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Css</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Vanilar Javascript</span>
+                                        
                                     </div>
                                     <div class="flex space-x-3">
-                                        <a href="#" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
-                                        <a href="#" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
+                                        <a href="calculator-five-rho-72.vercel.app" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        <a href="https://github.com/Bajanko/calculator.git" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,76 +62,51 @@
                     <!-- Slide 3 -->
                     <div class="project-slide w-full flex-shrink-0">
                         <div class="relative h-[450px]">
-                            <img src="{{ asset('images/fitness.jpg') }}" alt="Featured Project 3" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/pp.png') }}" alt="Featured Project 3" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Mobile App</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2">Health & Fitness Tracker</h3>
-                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A comprehensive mobile app for tracking health metrics, workouts, and nutrition with AI-powered insights.</p>
+                                    <h3 class="text-3xl font-bold text-white mb-2">Github User App</h3>
+                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A comprehensive mobile app for searching Github Users</p>
                                     <div class="flex flex-wrap gap-2 mb-6">
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Flutter</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Firebase</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">TensorFlow</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Google Fit API</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">React Js</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Tailwind CSS</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Github API</span>
+
                                     </div>
                                     <div class="flex space-x-3">
-                                        <a href="#" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
-                                        <a href="#" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
+                                        <a href="https://janko-project.vercel.app/" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        <a href="https://github.com/Bajanko/Github-user-App.git" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     
                     <!-- Slide 4 -->
                     <div class="project-slide w-full flex-shrink-0">
                         <div class="relative h-[450px]">
-                            <img src="{{ asset('images/lms.png') }}" alt="Featured Project 4" class="w-full h-full object-cover">
+                            <img src="{{ asset('images/rr.png') }}" alt="Featured Project 4" class="w-full h-full object-cover">
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Web App</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2">Learning Management System</h3>
-                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">An educational platform with course management, video streaming, and student progress tracking features.</p>
+                                    <h3 class="text-3xl font-bold text-white mb-2">Coin Toast App</h3>
+                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">Is a web App that put a classic coin toss whether you are settling friendly debates or just looking for a quick thrill, coin toast delivers fair, randomness and playful heads or tails.</p>
                                     <div class="flex flex-wrap gap-2 mb-6">
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Next.js</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Node.js</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">MongoDB</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">AWS S3</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Html</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Css</span>
+                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Vanilar Javascrip</span>
+                                      
                                     </div>
                                     <div class="flex space-x-3">
-                                        <a href="#" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
-                                        <a href="#" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
+                                        <a href="https://rock-paper-scissor-game-o5wh.vercel.app/" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        <a href="https://github.com/Bajanko/Rock-Paper-Scissor-Game.git" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
-                   
-                    
-                    <!-- Slide 6 -->
-                    <div class="project-slide w-full flex-shrink-0">
-                        <div class="relative h-[450px]">
-                            <img src="{{ asset('images/travel.avif') }}" alt="Featured Project 6" class="w-full h-full object-cover">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
-                                <div class="absolute bottom-0 left-0 p-8 w-full">
-                                    <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Mobile App</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2">Travel Discovery App</h3>
-                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A travel companion app with location-based recommendations, itinerary planning and travel community features.</p>
-                                    <div class="flex flex-wrap gap-2 mb-6">
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">React Native</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">GraphQL</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">AWS Amplify</span>
-                                        <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Google Maps API</span>
-                                    </div>
-                                    <div class="flex space-x-3">
-                                        <a href="#" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
-                                        <a href="#" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     
                    
                     
@@ -161,7 +136,7 @@
                         <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="1"></button>
                         <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="2"></button>
                         <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="3"></button>
-                        <button class="w-3 h-3 rounded-full bg-white opacity-50" data-index="4"></button>
+                        
                         
                 </div>
             </div>
@@ -188,6 +163,7 @@
                     <button class="filter-btn px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-[#1d4ed8] hover:text-white dark:hover:bg-blue-600 rounded-md transition duration-300" data-filter="mobile">Mobile Apps</button>
                     <button class="filter-btn px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-[#1d4ed8] hover:text-white dark:hover:bg-blue-600 rounded-md transition duration-300" data-filter="ecommerce">E-commerce</button>
                 </div>
+                
             </div>
         </div>
     
@@ -195,13 +171,13 @@
     <!-- Projects Grid -->
     <div class="pb-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 
                 <!-- Project Card 1 -->
                 <div class="project-card group" data-category="web">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-2">
                         <div class="relative h-60 overflow-hidden">
-                            <img src="{{ asset('images/task.png') }}" alt="Project 1" class="w-full h-full object-cover transition duration-300 group-hover:scale-105">
+                            <img src="{{ asset('images/cal2.png') }}" alt="Project 1" class="w-full h-full object-cover transition duration-300 group-hover:scale-105">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end">
                                 <div class="p-4">
                                     <div class="flex space-x-2">
@@ -211,14 +187,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Task Management System</h3>
-                            <p class="text-gray-600 dark:text-gray-300 mb-4">A full-stack web application for managing projects and tasks with team collaboration features.</p>
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2 text-center">Calculator App</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">A  fast and reliable calculatop app designed for everyday use from basic arithmetic to advance mathematical functions..</p>
                             <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">React</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Node.js</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">MongoDB</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Tailwind CSS</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Html</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Css</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Javascript</span>
+                        
                             </div>
                         </div>
                     </div>
@@ -228,12 +204,12 @@
                 <div class="project-card group" data-category="ecommerce">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-2">
                         <div class="relative h-60 overflow-hidden">
-                            <img src="{{ asset('images/ecomerce.avif') }}" alt="Project 2" class="w-full h-full object-cover transition duration-300 group-hover:scale-105">
+                            <img src="{{ asset('images/rr.png') }}" alt="Project 2" class="w-full h-full object-cover transition duration-300 group-hover:scale-105">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end">
                                 <div class="p-4">
                                     <div class="flex space-x-2">
-                                        <a href="#" class="px-3 py-1 bg-[#1d4ed8] text-white rounded-full text-sm hover:bg-blue-700 transition duration-300">View Project</a>
-                                        <a href="#" class="px-3 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-700 transition duration-300">Code</a>
+                                        <a href="https://rock-paper-scissor-game-o5wh.vercel.app/" class="px-3 py-1 bg-[#1d4ed8] text-white rounded-full text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        <a href="https://github.com/Bajanko/calculator.git" class="px-3 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-700 transition duration-300">Code</a>
                                     </div>
                                 </div>
                             </div>
@@ -254,25 +230,25 @@
                 <!-- Project Card 3 -->
                 <div class="project-card group" data-category="mobile">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-2">
-                        <div class="relative h-60 overflow-hidden">
-                            <img src="{{ asset('images/fitness.jpg') }}" alt="Project 3" class="w-full h-full object-cover transition duration-300 group-hover:scale-105">
+                        <div class="relative h-60 overflow-hidden ">
+                            <img src="{{ asset('images/2.jpeg') }}" alt="Project 3" class="w-full h-full  py-2 object-cover transition duration-300 group-hover:scale-105">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end">
                                 <div class="p-4">
                                     <div class="flex space-x-2">
-                                        <a href="#" class="px-3 py-1 bg-[#1d4ed8] text-white rounded-full text-sm hover:bg-blue-700 transition duration-300">View Project</a>
-                                        <a href="#" class="px-3 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-700 transition duration-300">Code</a>
+                                        <a href="https://janko-project.vercel.app/" class="px-3 py-1 bg-[#1d4ed8] text-white rounded-full text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        <a href="#" class="px-3 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-700 transition duration-300">Repository</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Fitness Tracking App</h3>
-                            <p class="text-gray-600 dark:text-gray-300 mb-4">A mobile application for tracking workouts, nutrition, and fitness progress with analytics dashboard.</p>
+                        <div class="py-8 px-2  mx-3">
+                            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Github User Searching App</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4">A mobile application for searching Github users.</p>
                             <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">React Native</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Firebase</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Redux</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Expo</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">React Js</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Tailwind CSS</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Github API</span>
+                                
                             </div>
                         </div>
                     </div>
@@ -282,24 +258,23 @@
                 <div class="project-card group" data-category="web">
                     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-2">
                         <div class="relative h-60 overflow-hidden">
-                            <img src="{{ asset('images/realestate.jpeg') }}" alt="Project 4" class="w-full h-full object-cover transition duration-300 group-hover:scale-105">
+                            <img src="{{ asset('images/q.png') }}" alt="Project 4" class="w-full h-full object-cover transition duration-300 group-hover:scale-105">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end">
                                 <div class="p-4">
                                     <div class="flex space-x-2">
-                                        <a href="#" class="px-3 py-1 bg-[#1d4ed8] text-white rounded-full text-sm hover:bg-blue-700 transition duration-300">View Project</a>
-                                        <a href="#" class="px-3 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-700 transition duration-300">Code</a>
+                                        <a href="https://bmi-calculator-nu-jade.vercel.app/" class="px-3 py-1 bg-[#1d4ed8] text-white rounded-full text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        <a href="#" class="px-3 py-1 bg-gray-800 text-white rounded-full text-sm hover:bg-gray-700 transition duration-300">Repository</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="p-6">
-                            <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-2">Real Estate Portal</h3>
-                            <p class="text-gray-600 dark:text-gray-300 mb-4">A real estate listing platform with property search, virtual tours, and agent contact features.</p>
+                            <h3 class="text-medium  font-bold text-gray-800 dark:text-white  py-4 ">Body Mass Index (BMI) Calculator</h3>
+                            <p class="text-gray-600 dark:text-gray-300 mb-4 py-2">A conprehensive Body App Calculator</p>
                             <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Next.js</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Supabase</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Mapbox API</span>
-                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Tailwind CSS</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">HTML </span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">CSS</span>
+                                <span class="px-2 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-md text-xs font-medium">Vanilar Js</span>
                             </div>
                         </div>
                     </div>

@@ -85,23 +85,23 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="overflow-hidden rounded-lg shadow-md bg-white dark:bg-gray-800 transition duration-300 hover:shadow-lg">
                 <div class=" bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                    <img class="" src="images/mb6.png" alt="">
+                    <img class="py-2 px-6" src="images/q.png" alt="">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">BMI Calculator</h3>
                     <p class="text-gray-600 dark:text-gray-300 mb-4">Description of the project highlighting key features and technologies used.</p>
                     <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">Laravel</span>
-                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">TailwindCSS</span>
-                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">Vue.js</span>
+                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">Html</span>
+                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">CSS</span>
+                        <span class="px-3 py-1 bg-[#e0e7ff] text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 rounded-full text-xs font-medium">JavaScript</span>
                     </div>
-                    <a href="#" class="text-[#1d4ed8] dark:text-blue-400 hover:underline font-medium">View Details →</a>
+                    <a href="https://bmi-calculator-nu-jade.vercel.app/" class="text-[#1d4ed8] dark:text-blue-400 hover:underline font-medium">View Details →</a>
                 </div>
             </div>
            
             <div class="overflow-hidden rounded-lg shadow-md bg-white dark:bg-gray-800 transition duration-300 hover:shadow-lg">
-                <div class="p-4 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                    <img class=" " src="images/2.jpeg " alt="">
+                <div class="py-4 bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
+                    <img class="  " src="images/2.jpeg " alt="">
                 </div>
                 <div class="p-6">
                     <h3 class="text-sm font-semibold  text-gray-800 dark:text-white">GitHub User Finder </h3>
