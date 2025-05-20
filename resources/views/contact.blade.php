@@ -39,8 +39,8 @@
                                 <div class="ml-4">
                                     <h3 class="text-lg font-medium text-gray-800 dark:text-white">Email</h3>
                                     <p class="mt-1 text-gray-600 dark:text-gray-300">
-                                        <a href="mailto:contact@yourname.com" class="hover:text-[#1d4ed8] dark:hover:text-blue-400 transition duration-300">
-                                            bajankojaiteh@gmail.com
+                                        <a href="" class="hover:text-[#1d4ed8] dark:hover:text-blue-400 transition duration-300">
+                                            bajankojaiteh95@gmail.com
                                         </a>
                                     </p>
                                 </div>
