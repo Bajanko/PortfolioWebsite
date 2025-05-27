@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
 
 
 Route::get('/',[HomeController::class,'index']);
@@ -19,4 +20,4 @@ Route::get('/contact', function(){
 });
 
 Route:: view('/contact' , 'contact');
-Route:: post ('/contact', [ContactController:: class, 'store']) -> name('contact.store');
+Route:: post ('/contact', [ContactController:: class, 'store']) ->name('contact.store');

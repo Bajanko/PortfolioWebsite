@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <div class="py-14">
         <div class="max-w-4xl mx-auto">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6 text-center">
                 About <span class="text-[#1d4ed8] dark:text-blue-400">Me</span>
             </h1>
             
@@ -13,20 +13,19 @@
                         <img src="images/pic2.jpg" alt="Bajanko Jaiteh" class="w-full h-full object-cover">
                     </div>
                     <div>
-                        <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2 ">Bajanko <span class="text-blue-400">Jaiteh</span> </h2>
+                        <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2 ">Bajanko <span class="text-[#1d4ed8]">Jaiteh</span> </h2>
                         <p class="text-[#1d4ed8] dark:text-blue-400 font-medium mb-4">Software Developer</p>
                         <p class="text-gray-600 dark:text-gray-300">
-                            Code wizard with a BSc in Computer Science, I am a passionate full stack developer with a focus on creating elegant, efficient, and user-friendly web applications. With expertise in both front-end and back-end technologies, I build comprehensive digital solutions that solve real-world problems.
-                        </p>
+                            As a code enthusiast holding a BSc in Computer Science, I am a dedicated full stack developer specializing in crafting elegant, efficient, and user-friendly web applications. My proficiency spans both front-end and back-end technologies, enabling me to create holistic digital solutions that address real-world challenges.                        </p>
                     </div>
                 </div>
                 
                 <div class="border-t border-gray-200 dark:border-gray-700 pt-8">
                     <p class="text-gray-600 dark:text-gray-300 mb-6">
-                        My journey in web development began with a fascination for creating digital experiences that make a difference. I enjoy the challenge of transforming complex problems into simple solutions that users love. I believe in the power of clean code, continuous learning, and staying updated with emerging technologies.
-                    </p>
+                        My software development journey started with a passion for creating impactful digital experiences. I thrive on the challenge of simplifying complex problems into user-friendly solutions. I am a firm believer in the benefits of clean code, ongoing learning, and keeping up with emerging technologies.
+                                            </p>
                     <p class="text-gray-600 dark:text-gray-300">
-                        When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or expanding my knowledge through online courses and tech meetups. I'm constantly seeking opportunities to grow and improve my skills.
+                        When I'm away from coding, I enjoy exploring innovative technologies, contributing to open-source projects, and enhancing my knowledge through online courses and tech meetups. I am always on the lookout for opportunities to grow and refine my skills.
                     </p>
                 </div>
             </div>
@@ -110,7 +109,7 @@
                     <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-1">BSc in Computer Science</h3>
                     <p class="text-gray-600 dark:text-gray-400 mb-2">University of The Gambia</p>
                     <span class="bg-blue-100 text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 py-1 px-3 rounded-full text-sm font-medium">
-                        2018 - 2024
+                        2018-2025
                     </span>
                 </div>
                 
@@ -118,13 +117,15 @@
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
                     <div class="text-[#1d4ed8] dark:text-blue-400 mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-1">AWS Certified Developer</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-2">Amazon Web Services</p>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-1">22nd July Academy</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-2">High School Certificate</p>
                     <span class="bg-blue-100 text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 py-1 px-3 rounded-full text-sm font-medium">
-                        2020
+                        2012-2015
                     </span>
                 </div>
                 
@@ -135,9 +136,9 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-1">Laravel Certification</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-2">Laravel.com</p>
-                    <span class="bg-blue-100 text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 py-1 px-3 rounded-full text-sm font-medium">2024
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-1">Humanity First </h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-2">Certificate In Information Technology</p>
+                    <span class="bg-blue-100 text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 py-1 px-3 rounded-full text-sm font-medium">2012
                     
                     </span>
                 </div>
@@ -146,13 +147,15 @@
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
                     <div class="text-[#1d4ed8] dark:text-blue-400 mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-1">React Developer</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-2">Meta</p>
+                    <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-1">Charles Jow Memorial Academy</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-2">Junior School Certificate</p>
                     <span class="bg-blue-100 text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 py-1 px-3 rounded-full text-sm font-medium">
-                        2021
+                        2009-2012
                     </span>
                 </div>
             </div>
@@ -160,13 +163,13 @@
     </div>
 
     <!-- Testimonials Section -->
-    <div class="py-12 bg-gray-50 dark:bg-gray-900">
+    {{-- <div class="py-12 bg-gray-50 dark:bg-gray-900">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10 text-center">
                 Client <span class="text-[#1d4ed8] dark:text-blue-400">Testimonials</span>
-            </h2>
+            </h2> --}}
             
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {{-- <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Testimonial 1 -->
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
                     <div class="flex items-center mb-4">
@@ -236,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 
@@ -273,15 +276,17 @@
                                 </div>
                             </div>
                             <p class="text-gray-600 dark:text-gray-300 italic mb-4">
-                                "Bajanko developed an exceptional e-commerce platform for our business. His technical expertise and attention to detail significantly improved our online presence. The website loads faster and provides a seamless shopping experience for our customers."
+                                "Bajanko delivered our project on time and exceeded our expectations. His attention to detail and technical expertise made our website stand out from competitors. We've seen a significant increase in user engagement since launch."
+     
+    
                             </p>
                             <div class="flex items-center">
                                 <div class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700 flex-shrink-0 flex items-center justify-center text-gray-500 dark:text-gray-400 font-bold">
-                                    BN
+                                    JC
                                 </div>
                                 <div class="ml-3">
-                                    <p class="font-medium text-gray-800 dark:text-white">Betty Njie</p>
-                                    <p class="text-sm text-gray-500 dark:text-gray-400">Owner, Global Boutique</p>
+                                    <p class="font-medium text-gray-800 dark:text-white">Jamal Cham</p>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">Founder & CEO, Jamstech</p>
                                 </div>
                             </div>
                         </div>
@@ -314,11 +319,11 @@
                             </p>
                             <div class="flex items-center">
                                 <div class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700 flex-shrink-0 flex items-center justify-center text-gray-500 dark:text-gray-400 font-bold">
-                                    EW
+                                    FC
                                 </div>
                                 <div class="ml-3">
-                                    <p class="font-medium text-gray-800 dark:text-white">Emily Wilson</p>
-                                    <p class="text-sm text-gray-500 dark:text-gray-400">Project Manager, TechPro Solutions</p>
+                                    <p class="font-medium text-gray-800 dark:text-white">Fatou Cham</p>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">Project Manager, Jamstech</p>
                                 </div>
                             </div>
                         </div>
@@ -351,11 +356,11 @@
                             </p>
                             <div class="flex items-center">
                                 <div class="w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-700 flex-shrink-0 flex items-center justify-center text-gray-500 dark:text-gray-400 font-bold">
-                                    RM
+                                    MD
                                 </div>
                                 <div class="ml-3">
-                                    <p class="font-medium text-gray-800 dark:text-white">Robert Martinez</p>
-                                    <p class="text-sm text-gray-500 dark:text-gray-400">Director, Creative Designs Agency</p>
+                                    <p class="font-medium text-gray-800 dark:text-white">Muhammedlamin Dibba</p>
+                                    <p class="text-sm text-gray-500 dark:text-gray-400">CEO, Topdawg Designs</p>
                                 </div>
                             </div>
                         </div>

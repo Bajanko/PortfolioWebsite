@@ -11,6 +11,13 @@
                 Use the form below or contact me via the provided information.
             </p>
         </div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        @if (session('success'))
+        <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4" role="alert">
+            <strong class="font-bold">Success!</strong>
+            {{ session('success') }}
+        </div>
+    @endif
     </div>
     
     <!-- Contact Section -->
@@ -128,7 +135,8 @@
                         <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-6">
                             Send Me a Message
                         </h2>
-                        <form action="#" method="POST" class="space-y-5">
+                        <form action="{{ route('contact.store') }}" method="POST" class="space-y-5">
+                            @csrf
                             <!-- Name and Email row -->
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
@@ -197,34 +205,7 @@
             </div>
         </div>
     </div>
+   
     
-    <!-- Contact JavaScript (optional) -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // You can add form validation or submission handling here
-            const contactForm = document.querySelector('form');
-            
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                // Here you would typically send the form data to your backend
-                // For demo purposes, let's just show a success message
-                const formData = new FormData(contactForm);
-                
-                // Example of accessing form data
-                const name = formData.get('name');
-                const email = formData.get('email');
-                const subject = formData.get('subject');
-                const message = formData.get('message');
-                
-                console.log('Form submitted with:', { name, email, subject, message });
-                
-                // Show success message (you would implement this based on your UI)
-                alert('Thanks for your message! I\'ll get back to you soon.');
-                
-                // Reset form
-                contactForm.reset();
-            });
-        });
-    </script>
+    
 @endsection

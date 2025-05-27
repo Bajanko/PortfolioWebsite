@@ -283,7 +283,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Docker</span>
-                                    <span class="text-gray-600 dark:text-gray-400">85%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">30%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-red-600 h-2 rounded-full" style="width: 85%"></div>
@@ -295,7 +295,7 @@
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Server Management</span>
-                                    <span class="text-gray-600 dark:text-gray-400">80%</span>
+                                    <span class="text-gray-600 dark:text-gray-400">60%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-red-600 h-2 rounded-full" style="width: 80%"></div>
@@ -315,6 +315,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                                 </svg>
                             </div>
+                            
                             <h3 class="text-xl font-bold text-gray-800 dark:text-white">Other Technical Skills</h3>
                         </div>
                         <div class="space-y-3">
@@ -324,13 +325,20 @@
                                     <span class="text-gray-600 dark:text-gray-400">55%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                                    <div class="bg-teal-600 h-2 rounded-full" style="width: 95%"></div>
+                                    <div class="bg-teal-600 h-2 rounded-full" style="width: 85%"></div>
                                 </div>
                             </div>
                             <div>
                                 <div class="flex justify-between mb-1">
                                     <span class="text-gray-700 dark:text-gray-300 font-medium">Networking Skills</span>
                                     <span class="text-gray-600 dark:text-gray-400">85%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                    <div class="bg-teal-600 h-2 rounded-full" style="width: 75%"></div>
+                                </div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700 dark:text-gray-300 font-medium">Software troubleshooting Skills</span>
+                                    <span class="text-gray-600 dark:text-gray-400">75%</span>
                                 </div>
                                 <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                                     <div class="bg-teal-600 h-2 rounded-full" style="width: 85%"></div>
