@@ -8,7 +8,7 @@
         <!-- Vite Assets -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen transition-colors duration-300 flex flex-col">
+    <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen transition-colors duration-300 flex flex-col text-lg">
         <!-- Include the navbar component -->
         @include('components.navbar')
         

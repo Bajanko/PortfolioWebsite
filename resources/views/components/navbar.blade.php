@@ -4,18 +4,19 @@
             <!-- Logo and Brand -->
             <div class="flex items-center">
                 <div class="flex-shrink-0 flex items-center">
-                    <span class="text-primary-dark dark:text-primary font-bold text-xl">BAJANKO <span class="bg-gray-800 text-white px-2 rounded">JAITEH</span></span>
+                    <span class="text-primary-dark dark:text-primary font-bold text-2xl">BAJANKO <span class="bg-gray-800 text-white px-2 rounded">JAITEH</span></span>
                 </div>
             </div>
             
             <!-- Desktop Menu -->
             <div class="hidden md:flex items-center">
                 <div class="ml-10 flex items-baseline space-x-4">
-                    <a href="/" class="{{ request()->is('/') || request()->is('') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-sm hover:bg-indigo-50 dark:hover:bg-gray-700">Home</a>
-                    <a href="/about" class="{{ request()->is('about') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-sm hover:bg-indigo-50 dark:hover:bg-gray-700">About</a>
-                    <a href="/projects" class="{{ request()->is('projects') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-sm hover:bg-indigo-50 dark:hover:bg-gray-700">Projects</a>
-                    <a href="/skills" class="{{ request()->is('skills') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-sm hover:bg-indigo-50 dark:hover:bg-gray-700">Skills</a>
-                    <a href="/contact" class="{{ request()->is('contact') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-sm hover:bg-indigo-50 dark:hover:bg-gray-700">Contact</a>
+                    <a href="/" class="{{ request()->is('/') || request()->is('') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-base hover:bg-indigo-50 dark:hover:bg-gray-700">Home</a>
+                    <a href="/about" class="{{ request()->is('about') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-base hover:bg-indigo-50 dark:hover:bg-gray-700">About</a>
+                    <a href="/projects" class="{{ request()->is('projects') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-base hover:bg-indigo-50 dark:hover:bg-gray-700">Projects</a>
+                    <a href="/skills" class="{{ request()->is('skills') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-base hover:bg-indigo-50 dark:hover:bg-gray-700">Skills</a>
+                    {{-- <a href="/tasks" class="{{ request()->is('tasks') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-base hover:bg-indigo-50 dark:hover:bg-gray-700">Tasks</a> --}}
+                    <a href="/contact" class="{{ request()->is('contact') ? 'text-primary-light dark:text-primary font-medium' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary' }} px-3 py-2 rounded-md text-base hover:bg-indigo-50 dark:hover:bg-gray-700">Contact</a>
                 </div>
                 @include('components.toggle')
             </div>
@@ -38,6 +39,7 @@
             <a href="/about" class="{{ request()->is('about') ? 'text-primary-light dark:text-primary' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary hover:bg-indigo-50 dark:hover:bg-gray-700' }} block px-3 py-2 rounded-md text-base font-medium">About</a>
             <a href="/projects" class="{{ request()->is('projects') ? 'text-primary-light dark:text-primary' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary hover:bg-indigo-50 dark:hover:bg-gray-700' }} block px-3 py-2 rounded-md text-base font-medium">Projects</a>
             <a href="/skills" class="{{ request()->is('skills') ? 'text-primary-light dark:text-primary' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary hover:bg-indigo-50 dark:hover:bg-gray-700' }} block px-3 py-2 rounded-md text-base font-medium">Skills</a>
+            <a href="/tasks" class="{{ request()->is('tasks') ? 'text-primary-light dark:text-primary' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary hover:bg-indigo-50 dark:hover:bg-gray-700' }} block px-3 py-2 rounded-md text-base font-medium">Tasks</a>
             <a href="/contact" class="{{ request()->is('contact') ? 'text-primary-light dark:text-primary' : 'text-gray-700 dark:text-gray-300 hover:text-primary-dark dark:hover:text-primary hover:bg-indigo-50 dark:hover:bg-gray-700' }} block px-3 py-2 rounded-md text-base font-medium">Contact</a>
             
             <!-- Mobile theme toggle -->

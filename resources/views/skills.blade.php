@@ -3,10 +3,10 @@
     <!-- Skills Header -->
     <div class="py-14">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-4 text-center">
                 My <span class="text-[#1d4ed8] dark:text-blue-400">Skills</span>
             </h1>
-            <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl">
+            <p class="text-2xl text-gray-600 dark:text-gray-300 max-w-4xl">
                 I've developed expertise in various technologies and methodologies throughout my career.
                 Here's an overview of my technical skills and competencies.
             </p>

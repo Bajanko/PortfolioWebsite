@@ -3,7 +3,7 @@
     <!-- Featured Projects Slideshow -->
     <div class="py-14 bg-gray-50 dark:bg-gray-900">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-6 text-center">
+            <h2 class="text-4xl font-bold text-gray-800 dark:text-white mb-6 text-center">
                 My <span class="text-[#1d4ed8] dark:text-blue-400">Projects</span>
             </h2>
           
@@ -19,8 +19,8 @@
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Web App</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2 ">Body Mass Index (BMI) Calculator</h3>
-                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A comprehensive dashboard for calculating the body mass</p>
+                                    <h3 class="text-4xl font-bold text-white mb-2 ">Body Mass Index (BMI) Calculator</h3>
+                                    <p class="text-white/80 text-xl mb-4 max-w-2xl">A comprehensive dashboard for calculating the body mass</p>
                                     <div class="flex flex-wrap gap-2 mb-6">
                                         <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Html</span>
                                         <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Css</span>
@@ -43,8 +43,8 @@
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Web App</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2">Calculator App</h3>
-                                    <p class="text-white/80 text-lg mb-4 max-w-2xl">A web app calculator that provides simple and advanced mathematical functions such as addition,subtraction,multiplication etc.</p>
+                                    <h3 class="text-4xl font-bold text-white mb-2">Calculator App</h3>
+                                    <p class="text-white/80 text-xl mb-4 max-w-2xl">A web app calculator that provides simple and advanced mathematical functions such as addition,subtraction,multiplication etc.</p>
                                     <div class="flex flex-wrap gap-2 mb-6">
                                         <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Html</span>
                                         <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">Css</span>
@@ -67,7 +67,7 @@
                             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent">
                                 <div class="absolute bottom-0 left-0 p-8 w-full">
                                     <span class="bg-[#1d4ed8] text-white px-3 py-1 rounded-full text-sm font-medium mb-4 inline-block">Web App</span>
-                                    <h3 class="text-3xl font-bold text-white mb-2">Github User App</h3>
+                                    <h3 class="text-4xl font-bold text-white mb-2">Github User App</h3>
                                     <p class="text-white/80 text-lg mb-4 max-w-2xl">A comprehensive mobile app for searching Github Users</p>
                                     <div class="flex flex-wrap gap-2 mb-6">
                                         <span class="px-3 py-1 bg-white/20 text-white rounded-full text-sm">React Js</span>

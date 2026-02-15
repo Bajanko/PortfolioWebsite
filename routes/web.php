@@ -18,6 +18,9 @@ Route::get('/skills', function(){
 Route::get('/contact', function(){
     return view('contact');
 });
+// Route::get('/tasks', function(){
+//     return view('tasks');
+// });
 
 Route:: view('/contact' , 'contact');
 Route:: post ('/contact', [ContactController:: class, 'store']) ->name('contact.store');

@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <div class="py-14">
         <div class="max-w-4xl mx-auto">
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-6 text-center">
                 About <span class="text-[#1d4ed8] dark:text-blue-400">Me</span>
             </h1>
             
@@ -13,18 +13,18 @@
                         <img src="images/pic2.jpg" alt="Bajanko Jaiteh" class="w-full h-full object-cover">
                     </div>
                     <div>
-                        <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2 ">Bajanko <span class="text-[#1d4ed8]">Jaiteh</span> </h2>
-                        <p class="text-[#1d4ed8] dark:text-blue-400 font-medium mb-4">Software Developer</p>
-                        <p class="text-gray-600 dark:text-gray-300">
+                        <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-2 ">Bajanko <span class="text-[#1d4ed8]">Jaiteh</span> </h2>
+                        <p class="text-[#1d4ed8] dark:text-blue-400 font-medium mb-4 text-xl">Software Developer</p>
+                        <p class="text-gray-600 dark:text-gray-300 text-lg">
                             As a code enthusiast holding a BSc in Computer Science, I am a dedicated full stack developer specializing in crafting elegant, efficient, and user-friendly web applications. My proficiency spans both front-end and back-end technologies, enabling me to create holistic digital solutions that address real-world challenges.                        </p>
                     </div>
                 </div>
                 
                 <div class="border-t border-gray-200 dark:border-gray-700 pt-8">
-                    <p class="text-gray-600 dark:text-gray-300 mb-6">
+                    <p class="text-gray-600 dark:text-gray-300 mb-6 text-lg">
                         My software development journey started with a passion for creating impactful digital experiences. I thrive on the challenge of simplifying complex problems into user-friendly solutions. I am a firm believer in the benefits of clean code, ongoing learning, and keeping up with emerging technologies.
                                             </p>
-                    <p class="text-gray-600 dark:text-gray-300">
+                    <p class="text-gray-600 dark:text-gray-300 text-lg">
                         When I'm away from coding, I enjoy exploring innovative technologies, contributing to open-source projects, and enhancing my knowledge through online courses and tech meetups. I am always on the lookout for opportunities to grow and refine my skills.
                     </p>
                 </div>
@@ -35,7 +35,7 @@
     <!-- Experience Section -->
     <div class="py-12 bg-gray-50 dark:bg-gray-900">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-10 text-center">
                 Professional <span class="text-[#1d4ed8] dark:text-blue-400">Experience</span>
             </h2>
             
@@ -44,12 +44,12 @@
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
                     <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                         <div>
-                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">full-stack Developer</h3>
+                            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">full-stack Developer</h3>
                             <p class="text-[#1d4ed8] dark:text-blue-400">JamsTech Solutions</p>
                         </div>
                         <div class="mt-2 md:mt-0">
                             <span class="bg-blue-100 text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 py-1 px-3 rounded-full text-sm font-medium">
-                                2022 - Present
+                                2025 - Present
                             </span>
                         </div>
                     </div>
@@ -67,22 +67,24 @@
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
                     <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                         <div>
-                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Junior Web Developer Intern</h3>
-                            <p class="text-[#1d4ed8] dark:text-blue-400">JamsTech Solutions</p>
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">IT / Assistant Officer </h3>
+                            <p class="text-[#1d4ed8] dark:text-blue-400">Gambia Printing And Publishing Coporation GPPC</p>
                         </div>
                         <div class="mt-2 md:mt-0">
                             <span class="bg-blue-100 text-[#1d4ed8] dark:bg-gray-700 dark:text-blue-400 py-1 px-3 rounded-full text-sm font-medium">
-                                2018 - 2021
+                                2022 - 2025
                             </span>
                         </div>
                     </div>
-                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                    {{-- <p class="text-gray-600 dark:text-gray-300 mb-4">
                         Developed and maintained client websites using PHP, JavaScript, and CSS. Worked closely with designers to implement responsive, accessible web interfaces.
-                    </p>
+                    </p> --}}
                     <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                        <li>Built custom WordPress themes and plugins for client websites</li>
-                        <li>Implemented e-commerce solutions with payment gateway integrations</li>
-                        <li>Improved site performance and SEO rankings for multiple clients</li>
+                        <li>Managed and maintained the company's IT infrastructure including the servers,networks, and workstations, ensuring smooth operation and security of the company's IT systems</li>
+
+                        <li>Provided technical support to the company's employees, troubleshooting and resolving IT issues promptly</li>
+                        
+                        <li>Support printing operations by integrating IT systems with digital printing and design toolsli>
                     </ul>
                 </div>
             </div>
