@@ -1,26 +1,20 @@
 FROM php:8.2-cli
 
+# Install system dependencies + zip
 RUN apt-get update && apt-get install -y \
-    git unzip \
-    libpng-dev \
-    libjpeg-dev \
-    libfreetype6-dev \
-    libonig-dev \
-    libxml2-dev \
-    zip curl
+    libzip-dev \
+    zip \
+    unzip \
+    && docker-php-ext-install zip pdo pdo_mysql
 
-RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd pdo pdo_mysql mbstring exif pcntl bcmath
-
+# Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-WORKDIR /var/www
+WORKDIR /app
 
 COPY . .
 
-RUN composer install --optimize-autoloader --no-interaction --no-dev
-
-RUN chmod -R 775 storage bootstrap/cache
+RUN composer install --no-dev --optimize-autoloader
 
 EXPOSE 8000
 
