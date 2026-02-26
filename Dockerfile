@@ -1,25 +1,21 @@
-FROM php:8.2-apache
+FROM php:8.2-cli
 
-# Install zip and other required extensions
+# Install zip + required extensions
 RUN apt-get update && apt-get install -y \
-    libzip-dev zip unzip \
+    libzip-dev \
+    zip \
+    unzip \
     && docker-php-ext-install zip pdo pdo_mysql
 
-# Enable Apache rewrite
-RUN a2enmod rewrite
+# Install Composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Set document root to public
-ENV APACHE_DOCUMENT_ROOT /var/www/html/public
-
-WORKDIR /var/www/html
+WORKDIR /app
 
 COPY . .
 
-# Install Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
 RUN composer install --no-dev --optimize-autoloader
 
-RUN chown -R www-data:www-data storage bootstrap/cache
+EXPOSE 8000
 
-EXPOSE 80
+CMD php artisan serve --host=0.0.0.0 --port=$PORT
