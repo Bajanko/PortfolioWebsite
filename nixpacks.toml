@@ -1,0 +1,23 @@
+# Railway / Nixpacks configuration for Laravel
+# https://docs.railway.com/guides/laravel | https://nixpacks.com/docs/providers/php
+
+providers = ["php", "node"]
+
+# Laravel: server root is public/, fallback to index.php for routing
+[variables]
+NIXPACKS_PHP_ROOT_DIR = "/app/public"
+NIXPACKS_PHP_FALLBACK_PATH = "/index.php"
+
+# Use production composer install (PHP provider runs composer by default; we override to add --no-dev)
+[phases.install]
+cmds = [
+  "composer install --no-dev --optimize-autoloader --no-interaction",
+  "npm ci --omit=dev"
+]
+
+# Build frontend assets (Vite) - Node provider runs npm run build when package.json has "build" script
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "nginx"
