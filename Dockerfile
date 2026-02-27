@@ -1,10 +1,12 @@
 FROM php:8.2-cli
 
-# Install zip + required extensions
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     libzip-dev \
     zip \
     unzip \
+    nodejs \
+    npm \
     && docker-php-ext-install zip pdo pdo_mysql
 
 # Install Composer
@@ -14,7 +16,12 @@ WORKDIR /app
 
 COPY . .
 
+# Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
+
+# Install Node dependencies and build Vite
+RUN npm install
+RUN npm run build
 
 EXPOSE 8000
 
