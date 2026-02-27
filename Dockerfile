@@ -1,27 +1,34 @@
+# ---------- Stage 1: Build frontend ----------
+FROM node:20 AS frontend
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+
+# ---------- Stage 2: PHP App ----------
 FROM php:8.2-cli
 
-# Install system dependencies
 RUN apt-get update && apt-get install -y \
     libzip-dev \
     zip \
     unzip \
-    nodejs \
-    npm \
     && docker-php-ext-install zip pdo pdo_mysql
 
-# Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /app
 
 COPY . .
 
-# Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Install Node dependencies and build Vite
-RUN npm install
-RUN npm run build
+# Copy built frontend assets from stage 1
+COPY --from=frontend /app/public/build ./public/build
+
+RUN chmod -R 775 storage bootstrap/cache
 
 EXPOSE 8000
 
