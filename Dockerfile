@@ -1,6 +1,6 @@
 FROM php:8.2-cli
 
-# Install dependencies
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     git unzip curl nodejs npm
 
@@ -10,21 +10,21 @@ RUN docker-php-ext-install pdo pdo_mysql
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-WORKDIR /var/www/html
+WORKDIR /app
 
-# Copy project
+# Copy project files
 COPY . .
 
-# Install dependencies
+# Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
-RUN npm install
-RUN npm run build
+
+# Install Node dependencies & build frontend
+RUN npm install && npm run build
 
 # Fix permissions
 RUN chmod -R 775 storage bootstrap/cache
 
 EXPOSE 8000
 
-CMD php artisan config:clear && \
-    php artisan migrate --force && \
-    php artisan serve --host=0.0.0.0 --port=$PORT
+# IMPORTANT: Serve from public directory
+CMD php artisan migrate --force && php -S 0.0.0.0:$PORT -t public
