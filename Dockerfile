@@ -1,4 +1,4 @@
-FROM php:8.2-apache
+FROM php:8.2-cli
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -7,30 +7,22 @@ RUN apt-get update && apt-get install -y \
 # Install PHP extensions
 RUN docker-php-ext-install pdo pdo_mysql
 
-# Enable rewrite
-RUN a2enmod rewrite
-
-# Set Apache DocumentRoot to public
-RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' \
-    /etc/apache2/sites-available/000-default.conf
-
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-WORKDIR /var/www/html
+WORKDIR /app
 
-# Copy project
+# Copy project files
 COPY . .
 
 # Install dependencies
 RUN composer install --no-dev --optimize-autoloader
 RUN npm install && npm run build
 
-# Set permissions
-RUN chown -R www-data:www-data /var/www/html && \
-    chmod -R 775 storage bootstrap/cache
+# Fix permissions
+RUN chmod -R 775 storage bootstrap/cache
 
-EXPOSE 80
+EXPOSE 8000
 
-# Run migrations at container startup, then start Apache
-CMD php artisan migrate --force && apache2-foreground
+# Start Laravel using built-in server
+CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=$PORT
