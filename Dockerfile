@@ -1,13 +1,22 @@
-FROM php:8.2-cli
+FROM php:8.2-apache
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     git unzip curl nodejs npm
 
+# Install PHP extensions
+RUN docker-php-ext-install pdo pdo_mysql
+
+# Enable Apache rewrite
+RUN a2enmod rewrite
+
+# Set Apache DocumentRoot to /public
+RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' /etc/apache2/sites-available/000-default.conf
+
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-WORKDIR /app
+WORKDIR /var/www/html
 
 # Copy project files
 COPY . .
@@ -15,15 +24,13 @@ COPY . .
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Install Node dependencies & build assets
-RUN npm install
-RUN npm run build
+# Install Node dependencies & build frontend
+RUN npm install && npm run build
 
-# Laravel optimizations
-RUN php artisan config:cache
-RUN php artisan route:cache
-RUN php artisan view:cache
+# Set permissions
+RUN chown -R www-data:www-data /var/www/html && \
+    chmod -R 775 storage bootstrap/cache
 
-EXPOSE 8000
+EXPOSE 80
 
-CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=$PORT
+CMD php artisan migrate --force && apache2-foreground
