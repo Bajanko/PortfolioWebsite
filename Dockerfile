@@ -17,7 +17,7 @@ COPY . .
 
 # Install dependencies
 RUN composer install --no-dev --optimize-autoloader
-RUN npm install && npm run build
+RUN npm install && npm run build && ls -la public
 
 # Fix permissions
 RUN chmod -R 775 storage bootstrap/cache
