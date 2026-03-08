@@ -8,7 +8,7 @@
                 Bajanko Jaiteh
             </h1>
             <p class="text-3xl lg:text-4xl xl:text-5xl text-gray-600 dark:text-gray-300 mb-8">
-                Full Stack Developer specializing in creating elegant, efficient web solutions with modern technologies.
+                Software Developer specializing in creating elegant, efficient web solutions with modern technologies.
             </p>
             <div class="flex space-x-4">
                 <!-- Social Media Icons -->
