@@ -52,7 +52,8 @@
                                         
                                     </div>
                                     <div class="flex space-x-3">
-                                        <a href="calculator-five-rho-72.vercel.app" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
+                                        
+                                        <a href="https://calculator-five-rho-72.vercel.app/" class="px-6 py-2 bg-[#1d4ed8] text-white rounded-md text-sm hover:bg-blue-700 transition duration-300">View Project</a>
                                         <a href="https://github.com/Bajanko/calculator.git" class="px-6 py-2 bg-white/10 hover:bg-white/20 text-white rounded-md text-sm transition duration-300">Repository</a>
                                     </div>
                                 </div>
