@@ -33,6 +33,7 @@ RUN chmod -R 775 storage bootstrap/cache
 
 # Start Laravel on Railway port
 CMD php artisan migrate --force && php -S 0.0.0.0:$PORT -t public
+RUN php artisan optimize
 
 RUN php artisan config:cache
 RUN php artisan route:cache
