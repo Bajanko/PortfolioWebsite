@@ -13,6 +13,8 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
 
+ENV APP_DEBUG=true
+
 COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
@@ -21,6 +23,13 @@ RUN npm install && npm run build
 
 RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 775 storage bootstrap/cache
+
+RUN php artisan config:clear && \
+    php artisan cache:clear && \
+    php artisan route:clear && \
+    php artisan view:clear
+
+RUN echo "display_errors = On" >> /usr/local/etc/php/conf.d/docker-php-errors.ini
 
 EXPOSE 80
 
