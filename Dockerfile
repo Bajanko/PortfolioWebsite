@@ -1,35 +1,13 @@
-FROM php:8.2-cli
-
-# Install dependencies
-RUN apt-get update && apt-get install -y \
-    git \
-    unzip \
-    curl \
-    nodejs \
-    npm \
-    libzip-dev \
-    zip
-
-# Install PHP extensions
-RUN docker-php-ext-install pdo pdo_mysql zip
-
-# Install Composer
-COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+FROM node:20-alpine
 
 WORKDIR /app
 
-# Copy project
+COPY package*.json ./
+RUN npm ci
+
 COPY . .
-
-# Install PHP dependencies
-RUN composer install --no-dev --optimize-autoloader
-
-# Build frontend
-RUN npm install
 RUN npm run build
 
-# Fix Laravel permissions
-RUN chmod -R 775 storage bootstrap/cache
+EXPOSE 3000
 
-# Start Laravel on Railway port
-CMD php artisan migrate --force && php -S 0.0.0.0:$PORT -t public
+CMD ["sh", "-c", "npx serve dist -l ${PORT:-3000}"]

@@ -1,43 +1,39 @@
-# Use official PHP image
-FROM php:8.2-cli
+# Deployment
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    git \
-    unzip \
-    curl \
-    nodejs \
-    npm \
-    libzip-dev \
-    zip
+Static portfolio site built with Vite and served from the `dist/` folder.
 
-# Install PHP extensions needed by Laravel + MySQL
-RUN docker-php-ext-install pdo pdo_mysql zip
+## Local development
 
-# Install Composer
-COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
+```bash
+npm install
+npm run dev
+```
 
-# Set working directory
+## Production build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Docker
+
+```dockerfile
+FROM node:20-alpine
+
 WORKDIR /app
 
-# Copy project
+COPY package*.json ./
+RUN npm ci
+
 COPY . .
-
-# Install PHP dependencies
-RUN composer install --no-dev --optimize-autoloader
-
-# Install Node dependencies and build Vite assets
-RUN npm install
 RUN npm run build
 
-# Fix permissions for Laravel
-RUN chmod -R 775 storage bootstrap/cache
+EXPOSE 3000
 
-# Clear and cache Laravel configs
-RUN php artisan config:clear
-RUN php artisan config:cache
-RUN php artisan route:cache
-RUN php artisan view:cache
+CMD ["sh", "-c", "npx serve dist -l ${PORT:-3000}"]
+```
 
-# Railway provides the PORT variable automatically
-CMD php artisan migrate --force && php -S 0.0.0.0:$PORT -t public
+## Railway / Nixpacks
+
+Configured via `nixpacks.toml` — installs dependencies, runs `npm run build`, and serves `dist/` with `serve`.
