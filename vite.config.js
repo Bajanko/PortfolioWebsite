@@ -13,6 +13,8 @@ export default defineConfig({
     build: {
         outDir: 'dist',
         emptyOutDir: true,
+        cssMinify: true,
+        minify: 'esbuild',
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
