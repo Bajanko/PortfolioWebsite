@@ -23,14 +23,14 @@
         <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
         <!-- Vite Assets -->
         <link rel="stylesheet" href="/resources/css/app.css">
-        <script type="module" src="/resources/js/app.js"></script>
+        <script type="module" src="/resources/js/app.js" defer></script>
     </head>
-    <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen transition-colors duration-300 flex flex-col text-lg">
+    <body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen flex flex-col text-lg">
         <!-- Include the navbar component -->
         {{navbar}}
         
         <!-- Page Content -->
-        <main class="flex-grow page-transition transform transition-all duration-300 ease-in-out">
+        <main class="flex-grow">
             <div class="max-w-7xl mx-auto pt-16 px-4 sm:px-6 lg:px-8 py-8">
                 {{content}}
             </div>
